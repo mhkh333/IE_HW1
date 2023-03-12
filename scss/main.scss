@@ -1,0 +1,14 @@
+@use "variables";
+
+*{
+  margin: variables.$margin;
+  padding: variables.$padding;
+}
+
+.Home{
+  position: relative;
+  width: 100%;
+  height: 3099px;
+
+  background-color: variables.$sef;
+}
