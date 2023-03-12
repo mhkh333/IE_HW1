@@ -1,7 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: red;
+}
+
+.Home {
+  position: relative;
+  width: 100%;
+  height: 3099px;
+  background-color: #F0F0F6;
 }
 
 /*# sourceMappingURL=main.css.map */
