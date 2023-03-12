@@ -4,8 +4,7 @@
   "description": "hello",
   "main": "index.js",
   "scripts": {
-    "test": "hello Wotld!",
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "test": "hello Wotld!"
   },
   "repository": {
     "type": "git",
@@ -17,7 +16,9 @@
     "url": "https://github.com/mhkh333/IE_HW1/issues"
   },
   "homepage": "https://github.com/mhkh333/IE_HW1#readme",
-  "dependencies": {
-    "node-sass": "^8.0.0"
-  }
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.59.2"
+  },
+  "keywords": []
 }

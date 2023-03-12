@@ -1,6 +1,7 @@
-@use '_variables';
+@use "variables";
 
 *{
-  margin: $margin;
-  padding: $padding;
+  margin: variables.$margin;
+  padding: variables.$padding;
+  background-color: variables.$red;
 }
