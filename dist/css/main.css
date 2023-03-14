@@ -282,7 +282,7 @@ div.sidebar .zab {
 }
 div.sidebar .zab_yek {
   position: absolute;
-  width: 53px;
+  width: 67px;
   height: 24px;
   left: 40px;
   font-family: "Inter";
@@ -299,7 +299,7 @@ div.sidebar .per {
 }
 div.sidebar .sath {
   position: absolute;
-  width: 46px;
+  width: 123px;
   height: 24px;
   left: 222px;
   font-family: "Inter";
@@ -319,6 +319,128 @@ div.sidebar .Eng {
 }
 div.sidebar .adv {
   top: 635px;
+}
+div.sidebar .Spanish {
+  top: 678px;
+}
+div.sidebar .bas {
+  top: 678px;
+}
+div.sidebar .sev {
+  top: 735px;
+}
+div.sidebar .contact {
+  position: absolute;
+  width: 173px;
+  height: 22px;
+  left: 40px;
+  top: 766px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  text-transform: capitalize;
+  color: #2B2B2B;
+}
+div.sidebar .ema {
+  top: 829px;
+}
+div.sidebar .email {
+  left: 85px;
+  top: 824px;
+}
+div.sidebar .pho {
+  top: 877px;
+}
+div.sidebar .phone {
+  left: 153px;
+  top: 876px;
+}
+div.sidebar .tel {
+  top: 921px;
+}
+div.sidebar .telegram {
+  left: 152px;
+  top: 923px;
+}
+div.sidebar .sky {
+  top: 964px;
+}
+div.sidebar .skype {
+  left: 152px;
+  top: 964px;
+}
+div.sidebar .cha {
+  top: 1027px;
+}
+div.sidebar .skill {
+  position: absolute;
+  width: 45px;
+  height: 22px;
+  left: 40px;
+  top: 1052px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  text-transform: capitalize;
+  color: #2B2B2B;
+}
+div.sidebar .t2t {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 40px;
+}
+div.sidebar .t1 {
+  top: 1093px;
+}
+div.sidebar .ski_yek {
+  position: absolute;
+  width: 156px;
+  height: 24px;
+  left: 70px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+  color: #767676;
+}
+div.sidebar .ski1 {
+  top: 1089px;
+}
+div.sidebar .t2 {
+  top: 1122px;
+}
+div.sidebar .ski2 {
+  top: 1118px;
+}
+div.sidebar .t3 {
+  top: 1151px;
+}
+div.sidebar .ski3 {
+  top: 1147px;
+}
+div.sidebar .t4 {
+  top: 1176px;
+}
+div.sidebar .ski4 {
+  top: 1176px;
+}
+div.sidebar .pan {
+  top: 1225px;
+}
+div.sidebar .cv {
+  position: absolute;
+  top: 1250px;
+  left: 40px;
+  width: 220px;
+  height: 40px;
 }
 
 /*# sourceMappingURL=main.css.map */
