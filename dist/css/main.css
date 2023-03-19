@@ -1,13 +1,3927 @@
+@font-face {
+  font-family: Interrr;
+  font-style: normal;
+  src: url("../../Inter/static/Inter-Regular.ttf");
+}
 * {
   margin: 0;
   padding: 0;
 }
 
-.Home {
-  position: relative;
-  width: 100%;
-  height: 3099px;
-  background-color: #F0F0F6;
+@media only screen and (min-width: 1200px) {
+  .Home {
+    position: relative;
+    width: 1326px;
+    height: 3099px;
+    background-color: #F0F0F6;
+  }
+  .big_intro {
+    position: absolute;
+    width: 970px;
+    height: 531.9px;
+    left: 335px;
+    top: 0px;
+    background-color: #FFFFFF;
+  }
+  .big_intro .self {
+    position: absolute;
+    width: 500px;
+    height: 134.4px;
+    left: 60px;
+    top: 105.92px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 38px;
+    line-height: 123.6%;
+    color: #2B2B2B;
+  }
+  .big_intro .self .in_yel {
+    color: #FFB400;
+  }
+  .big_intro .lorem {
+    position: absolute;
+    width: 424px;
+    height: 100.23px;
+    left: 60px;
+    top: 260.82px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  .big_intro .hire {
+    position: absolute;
+    padding: 16px 32px;
+    gap: 10px;
+    left: 60px;
+    width: 154px;
+    height: 51px;
+    background-color: #FFB400;
+    border-radius: 5px;
+    top: 389.53px;
+  }
+  .big_intro .aks {
+    position: absolute;
+    width: 325.72px;
+    height: 522.89px;
+    top: 9.11px;
+    left: 586.68px;
+    background: no-repeat url(/images/khod.jpg);
+  }
+  div.sidebar {
+    position: absolute;
+    width: 305px;
+    height: 1315px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+  }
+  div.sidebar .sidebar-pic {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 74px;
+    top: 50px;
+    background: no-repeat url(/images/khod_kochi.jpg);
+    border-radius: 50%;
+  }
+  div.sidebar .sid-name {
+    position: absolute;
+    width: 142px;
+    height: 22px;
+    left: 77px;
+    top: 231px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  div.sidebar .sid-pos {
+    position: absolute;
+    width: 143px;
+    height: 24px;
+    left: 78px;
+    top: 268px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  div.sidebar .sid-elem {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 307px;
+    border-radius: 50%;
+    background: #FFB400;
+  }
+  div.sidebar .fac {
+    left: 40px;
+  }
+  div.sidebar .ins {
+    left: 79px;
+  }
+  div.sidebar .twi {
+    left: 118px;
+  }
+  div.sidebar .link {
+    left: 157px;
+  }
+  div.sidebar .utub {
+    left: 196px;
+  }
+  div.sidebar .chi {
+    left: 235px;
+  }
+  div.sidebar .line {
+    position: absolute;
+    width: 220px;
+    height: 0px;
+    border: 1.5px solid #F0F0F6;
+    left: 40px;
+  }
+  div.sidebar .av {
+    top: 356px;
+  }
+  div.sidebar .dov {
+    top: 532px;
+  }
+  div.sidebar .mosh_yek {
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: right;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #2B2B2B;
+  }
+  div.sidebar .inner_yek {
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #2B2B2B;
+  }
+  div.sidebar .sen {
+    position: absolute;
+    width: 19px;
+    height: 24px;
+    left: 241px;
+    top: 381px;
+  }
+  div.sidebar .side-zar {
+    position: absolute;
+    width: 46px;
+    height: 24px;
+    left: 40px;
+    top: 381px;
+    background-color: #FFB400;
+  }
+  div.sidebar .inner_age {
+    position: absolute;
+    width: 33px;
+    height: inherit;
+    left: 5px;
+    top: 1px;
+  }
+  div.sidebar .side-Res {
+    position: absolute;
+    width: 89px;
+    height: 24px;
+    left: 40px;
+    top: 415px;
+    background-color: #FFB400;
+  }
+  div.sidebar .inner_res {
+    position: absolute;
+    width: 78px;
+    height: inherit;
+    left: 5px;
+    top: 0px;
+  }
+  div.sidebar .res {
+    position: absolute;
+    width: 21px;
+    height: 24px;
+    left: 239px;
+    top: 415px;
+  }
+  div.sidebar .side-free {
+    position: absolute;
+    width: 85px;
+    height: 24px;
+    left: 40px;
+    top: 449px;
+    background-color: #FFB400;
+  }
+  div.sidebar .inner_free {
+    position: absolute;
+    width: 74px;
+    height: inherit;
+    left: 5px;
+    top: 0px;
+  }
+  div.sidebar .free {
+    position: absolute;
+    width: 65px;
+    height: 24px;
+    left: 195px;
+    top: 449px;
+    color: #7EB942;
+  }
+  div.sidebar .side-add {
+    position: absolute;
+    width: 75px;
+    height: 24px;
+    left: 40px;
+    top: 483px;
+    background-color: #FFB400;
+  }
+  div.sidebar .inner_add {
+    position: absolute;
+    width: 63px;
+    height: inherit;
+    left: 5px;
+    top: 0px;
+  }
+  div.sidebar .add {
+    position: absolute;
+    width: 132px;
+    height: 24px;
+    left: 128px;
+    top: 483px;
+  }
+  div.sidebar .zab {
+    position: absolute;
+    width: 95px;
+    height: 22px;
+    left: 40px;
+    top: 557px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  div.sidebar .zab_yek {
+    position: absolute;
+    width: 67px;
+    height: 24px;
+    left: 40px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  div.sidebar .per {
+    top: 594px;
+  }
+  div.sidebar .sath {
+    position: absolute;
+    width: 123px;
+    height: 24px;
+    left: 222px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  div.sidebar .nat {
+    top: 594px;
+  }
+  div.sidebar .Eng {
+    top: 636px;
+  }
+  div.sidebar .adv {
+    top: 635px;
+  }
+  div.sidebar .Spanish {
+    top: 678px;
+  }
+  div.sidebar .bas {
+    top: 678px;
+  }
+  div.sidebar .sev {
+    top: 735px;
+  }
+  div.sidebar .contact {
+    position: absolute;
+    width: 173px;
+    height: 22px;
+    left: 40px;
+    top: 766px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  div.sidebar .ema {
+    top: 829px;
+  }
+  div.sidebar .email {
+    left: 85px;
+    top: 824px;
+  }
+  div.sidebar .pho {
+    top: 877px;
+  }
+  div.sidebar .phone {
+    left: 153px;
+    top: 876px;
+  }
+  div.sidebar .tel {
+    top: 921px;
+  }
+  div.sidebar .telegram {
+    left: 152px;
+    top: 923px;
+  }
+  div.sidebar .sky {
+    top: 964px;
+  }
+  div.sidebar .skype {
+    left: 152px;
+    top: 964px;
+  }
+  div.sidebar .cha {
+    top: 1027px;
+  }
+  div.sidebar .skill {
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    left: 40px;
+    top: 1052px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  div.sidebar .t2t {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 40px;
+  }
+  div.sidebar .t1 {
+    top: 1093px;
+  }
+  div.sidebar .ski_yek {
+    position: absolute;
+    width: 156px;
+    height: 24px;
+    left: 70px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  div.sidebar .ski1 {
+    top: 1089px;
+  }
+  div.sidebar .t2 {
+    top: 1122px;
+  }
+  div.sidebar .ski2 {
+    top: 1118px;
+  }
+  div.sidebar .t3 {
+    top: 1151px;
+  }
+  div.sidebar .ski3 {
+    top: 1147px;
+  }
+  div.sidebar .t4 {
+    top: 1176px;
+  }
+  div.sidebar .ski4 {
+    top: 1176px;
+  }
+  div.sidebar .pan {
+    top: 1225px;
+  }
+  div.sidebar .cv {
+    position: absolute;
+    top: 1250px;
+    left: 40px;
+    width: 220px;
+    height: 40px;
+  }
+  .serv {
+    position: absolute;
+    width: 193px;
+    height: 40px;
+    left: 713px;
+    top: 605px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  .par_ser {
+    position: absolute;
+    width: 438px;
+    height: 68px;
+    left: 601px;
+    top: 670px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  .myServ_obj {
+    position: absolute;
+    width: 310px;
+    height: 225px;
+    background-color: #FFFFFF;
+  }
+  .servObj1 {
+    left: 335px;
+    top: 788px;
+  }
+  .servObj2 {
+    left: 665px;
+    top: 788px;
+  }
+  .servObj3 {
+    left: 995px;
+    top: 788px;
+  }
+  .servObj4 {
+    left: 335px;
+    top: 1033px;
+  }
+  .servObj5 {
+    left: 665px;
+    top: 1033px;
+  }
+  .servObj6 {
+    left: 995px;
+    top: 1033px;
+  }
+  .svgs {
+    position: absolute;
+    left: 122.6px;
+    top: 35.44px;
+    width: 68px;
+    height: 68px;
+  }
+  .inn_serv {
+    position: absolute;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  .in_ser1 {
+    width: 158px;
+    height: 22px;
+    left: 76px;
+    top: 122px;
+  }
+  .in_ser2 {
+    width: 115px;
+    height: 22px;
+    left: 97px;
+    top: 122px;
+  }
+  .in_ser3 {
+    width: 120px;
+    height: 22px;
+    left: 95px;
+    top: 122px;
+  }
+  .in_ser4 {
+    width: 115px;
+    height: 22px;
+    left: 97px;
+    top: 128px;
+  }
+  .in_ser5 {
+    width: 111px;
+    height: 22px;
+    left: 99px;
+    top: 128px;
+  }
+  .in_ser6 {
+    width: 99px;
+    height: 22px;
+    left: 105px;
+    top: 31px;
+  }
+  .inn_ser_par {
+    position: absolute;
+    width: 134px;
+    height: 24px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  .in_se_par1 {
+    left: 88px;
+    top: 159px;
+  }
+  .in_se_par2 {
+    left: 55px;
+    top: 159px;
+    width: 200px;
+    height: 24px;
+  }
+  .in_se_par3 {
+    left: 67px;
+    top: 159px;
+    width: 175px;
+  }
+  .in_se_par4 {
+    width: 246px;
+    left: 32px;
+    top: 168px;
+  }
+  .in_se_par5 {
+    width: 213px;
+    left: 48px;
+    top: 168px;
+  }
+  .in_se_par6 {
+    width: 260px;
+    height: 78px;
+    left: 45px;
+    top: 75px;
+  }
+  .order {
+    position: absolute;
+    width: 69px;
+    height: 14px;
+    left: 112px;
+    top: 183px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFB400;
+  }
+  #edu {
+    width: 158px;
+    height: 40px;
+    left: 707px;
+    top: 1324px;
+  }
+  .edu-p {
+    left: 576px;
+    top: 1389px;
+  }
+  .edu_div {
+    position: absolute;
+    width: 970px;
+    height: 632px;
+    left: 310px;
+    top: 1507px;
+    background-color: #FFFFFF;
+  }
+  .edu_div .h4_edu {
+    position: absolute;
+    width: 184px;
+    height: 22px;
+    left: 37px;
+    top: 51px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  .edu_div .p_edu {
+    position: absolute;
+    width: 57px;
+    height: 24px;
+    left: 37px;
+    top: 98px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #2B2B2B;
+  }
+  .edu_div .rect {
+    position: absolute;
+    width: 111px;
+    height: 18px;
+    left: 115px;
+    top: 101px;
+    background: #FFB400;
+    border-radius: 1px;
+  }
+  .edu_div .rect .inner_rect {
+    position: absolute;
+    width: 97px;
+    height: 10px;
+    left: 7px;
+    top: 4px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 100.9%;
+    color: #FFFFFF;
+  }
+  .edu_div .rec_2 {
+    left: 115px;
+    top: 289px;
+  }
+  .edu_div .rec_3 {
+    left: 115px;
+    top: 497px;
+  }
+  .edu_div .h4_edu_2 {
+    position: absolute;
+    width: 234px;
+    height: 22px;
+    left: 405px;
+    top: 47px;
+  }
+  .edu_div .h4_edu_3 {
+    position: absolute;
+    width: 182px;
+    height: 22px;
+    left: 37px;
+    top: 240px;
+  }
+  .edu_div .h4_edu_4 {
+    position: absolute;
+    width: 234px;
+    height: 22px;
+    left: 405px;
+    top: 236px;
+  }
+  .edu_div .h4_edu_5 {
+    position: absolute;
+    width: 208px;
+    height: 22px;
+    left: 37px;
+    top: 448px;
+  }
+  .edu_div .h4_edu_6 {
+    position: absolute;
+    width: 234px;
+    height: 22px;
+    left: 405px;
+    top: 444px;
+  }
+  .edu_div .p_in_ed {
+    position: absolute;
+    width: 536px;
+    height: 100px;
+    left: 405px;
+    top: 97px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  .edu_div .p_in_ed3 {
+    top: 286px;
+    left: 37px;
+  }
+  .edu_div .p_in_ed4 {
+    top: 286px;
+    left: 405px;
+  }
+  .edu_div .p_in_ed5 {
+    top: 494px;
+    left: 37px;
+  }
+  .edu_div .p_in_ed6 {
+    top: 494px;
+    left: 405px;
+  }
+  .edu_div .line_big {
+    position: absolute;
+    width: 901px;
+    height: 0px;
+    left: 40px;
+    top: 208px;
+    border: 1.5px solid #F0F0F6;
+  }
+  .edu_div .lb_2 {
+    top: 416px;
+  }
+  .WH {
+    left: 681px;
+    top: 2198px;
+    width: 205px;
+  }
+  .wk_p {
+    width: 438px;
+    left: 576px;
+    top: 2263px;
+  }
+  .wk_div {
+    left: 310px;
+    top: 2381px;
+  }
+}
+@media (min-width: 990px) and (max-width: 1200px) {
+  .Home {
+    position: relative;
+    width: 1396px;
+    height: 3099px;
+    background-color: #F0F0F6;
+  }
+  .big_intro {
+    position: absolute;
+    width: 1000px;
+    height: 531.9px;
+    left: 335px;
+    top: 0px;
+    background-color: #FFFFFF;
+  }
+  .big_intro .self {
+    position: absolute;
+    width: 500px;
+    height: 134.4px;
+    left: 60px;
+    top: 105.92px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 41px;
+    line-height: 123.6%;
+    color: #2B2B2B;
+  }
+  .big_intro .self .in_yel {
+    color: #FFB400;
+  }
+  .big_intro .lorem {
+    position: absolute;
+    width: 424px;
+    height: 100.23px;
+    left: 60px;
+    top: 260.82px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  .big_intro .hire {
+    position: absolute;
+    padding: 16px 32px;
+    gap: 10px;
+    left: 60px;
+    width: 154px;
+    height: 51px;
+    background-color: #FFB400;
+    border-radius: 5px;
+    top: 389.53px;
+  }
+  .big_intro .aks {
+    position: absolute;
+    width: 325.72px;
+    height: 522.89px;
+    top: 9.11px;
+    left: 586.68px;
+    background: no-repeat url(/images/khod.jpg);
+  }
+  div.sidebar {
+    position: absolute;
+    width: 322px;
+    height: 1315px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+  }
+  div.sidebar .sidebar-pic {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 74px;
+    top: 50px;
+    background: no-repeat url(/images/khod_kochi.jpg);
+    border-radius: 50%;
+  }
+  div.sidebar .sid-name {
+    position: absolute;
+    width: 200px;
+    height: 22px;
+    left: 77px;
+    top: 231px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  div.sidebar .sid-pos {
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    left: 78px;
+    top: 268px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  div.sidebar .sid-elem {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 307px;
+    border-radius: 50%;
+    background: #FFB400;
+  }
+  div.sidebar .fac {
+    left: 40px;
+  }
+  div.sidebar .ins {
+    left: 79px;
+  }
+  div.sidebar .twi {
+    left: 118px;
+  }
+  div.sidebar .link {
+    left: 157px;
+  }
+  div.sidebar .utub {
+    left: 196px;
+  }
+  div.sidebar .chi {
+    left: 235px;
+  }
+  div.sidebar .line {
+    position: absolute;
+    width: 220px;
+    height: 0px;
+    border: 1.5px solid #F0F0F6;
+    left: 40px;
+  }
+  div.sidebar .av {
+    top: 356px;
+  }
+  div.sidebar .dov {
+    top: 532px;
+  }
+  div.sidebar .mosh_yek {
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: right;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #2B2B2B;
+  }
+  div.sidebar .inner_yek {
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #2B2B2B;
+  }
+  div.sidebar .sen {
+    position: absolute;
+    width: 19px;
+    height: 24px;
+    left: 241px;
+    top: 381px;
+  }
+  div.sidebar .side-zar {
+    position: absolute;
+    width: 46px;
+    height: 24px;
+    left: 40px;
+    top: 381px;
+    background-color: #FFB400;
+  }
+  div.sidebar .inner_age {
+    position: absolute;
+    width: 33px;
+    height: inherit;
+    left: 5px;
+    top: 1px;
+  }
+  div.sidebar .side-Res {
+    position: absolute;
+    width: 89px;
+    height: 24px;
+    left: 40px;
+    top: 415px;
+    background-color: #FFB400;
+  }
+  div.sidebar .inner_res {
+    position: absolute;
+    width: 78px;
+    height: inherit;
+    left: 5px;
+    top: 0px;
+  }
+  div.sidebar .res {
+    position: absolute;
+    width: 21px;
+    height: 24px;
+    left: 239px;
+    top: 415px;
+  }
+  div.sidebar .side-free {
+    position: absolute;
+    width: 85px;
+    height: 24px;
+    left: 40px;
+    top: 449px;
+    background-color: #FFB400;
+  }
+  div.sidebar .inner_free {
+    position: absolute;
+    width: 74px;
+    height: inherit;
+    left: 5px;
+    top: 0px;
+  }
+  div.sidebar .free {
+    position: absolute;
+    width: 65px;
+    height: 24px;
+    left: 195px;
+    top: 449px;
+    color: #7EB942;
+  }
+  div.sidebar .side-add {
+    position: absolute;
+    width: 75px;
+    height: 24px;
+    left: 40px;
+    top: 483px;
+    background-color: #FFB400;
+  }
+  div.sidebar .inner_add {
+    position: absolute;
+    width: 63px;
+    height: inherit;
+    left: 5px;
+    top: 0px;
+  }
+  div.sidebar .add {
+    position: absolute;
+    width: 132px;
+    height: 24px;
+    left: 128px;
+    top: 483px;
+  }
+  div.sidebar .zab {
+    position: absolute;
+    width: 95px;
+    height: 22px;
+    left: 40px;
+    top: 557px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  div.sidebar .zab_yek {
+    position: absolute;
+    width: 67px;
+    height: 24px;
+    left: 40px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  div.sidebar .per {
+    top: 594px;
+  }
+  div.sidebar .sath {
+    position: absolute;
+    width: 123px;
+    height: 24px;
+    left: 222px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  div.sidebar .nat {
+    top: 594px;
+  }
+  div.sidebar .Eng {
+    top: 636px;
+  }
+  div.sidebar .adv {
+    top: 635px;
+  }
+  div.sidebar .Spanish {
+    top: 678px;
+  }
+  div.sidebar .bas {
+    top: 678px;
+  }
+  div.sidebar .sev {
+    top: 735px;
+  }
+  div.sidebar .contact {
+    position: absolute;
+    width: 173px;
+    height: 22px;
+    left: 40px;
+    top: 766px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  div.sidebar .ema {
+    top: 829px;
+  }
+  div.sidebar .email {
+    left: 85px;
+    top: 824px;
+  }
+  div.sidebar #emaili {
+    width: 50px;
+    text-transform: none;
+  }
+  div.sidebar .pho {
+    top: 877px;
+  }
+  div.sidebar .phone {
+    left: 153px;
+    top: 876px;
+  }
+  div.sidebar .tel {
+    top: 921px;
+  }
+  div.sidebar .telegram {
+    left: 152px;
+    top: 923px;
+  }
+  div.sidebar .sky {
+    top: 964px;
+  }
+  div.sidebar .skype {
+    left: 152px;
+    top: 964px;
+  }
+  div.sidebar .cha {
+    top: 1027px;
+  }
+  div.sidebar .skill {
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    left: 40px;
+    top: 1052px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  div.sidebar .t2t {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 40px;
+  }
+  div.sidebar .t1 {
+    top: 1093px;
+  }
+  div.sidebar .ski_yek {
+    position: absolute;
+    width: 156px;
+    height: 24px;
+    left: 70px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  div.sidebar .ski1 {
+    top: 1089px;
+  }
+  div.sidebar .t2 {
+    top: 1122px;
+  }
+  div.sidebar .ski2 {
+    top: 1118px;
+  }
+  div.sidebar .t3 {
+    top: 1151px;
+  }
+  div.sidebar .ski3 {
+    top: 1147px;
+  }
+  div.sidebar .t4 {
+    top: 1176px;
+  }
+  div.sidebar .ski4 {
+    top: 1176px;
+  }
+  div.sidebar .pan {
+    top: 1225px;
+  }
+  div.sidebar .cv {
+    position: absolute;
+    top: 1250px;
+    left: 40px;
+    width: 220px;
+    height: 40px;
+  }
+  .serv {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 713px;
+    top: 605px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  .par_ser {
+    position: absolute;
+    width: 450px;
+    height: 65px;
+    left: 601px;
+    top: 660px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  .myServ_obj {
+    position: absolute;
+    width: 320px;
+    height: 225px;
+    background-color: #FFFFFF;
+    margin-left: 33px;
+  }
+  .servObj1 {
+    left: 335px;
+    top: 788px;
+  }
+  .servObj2 {
+    left: 665px;
+    top: 788px;
+  }
+  .servObj3 {
+    left: 995px;
+    top: 788px;
+  }
+  .servObj4 {
+    left: 335px;
+    top: 1033px;
+  }
+  .servObj5 {
+    left: 665px;
+    top: 1033px;
+  }
+  .servObj6 {
+    left: 995px;
+    top: 1033px;
+  }
+  .svgs {
+    position: absolute;
+    left: 122.6px;
+    top: 35.44px;
+    width: 75px;
+    height: 75px;
+  }
+  .inn_serv {
+    position: absolute;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  .in_ser1 {
+    width: 158px;
+    height: 22px;
+    left: 76px;
+    top: 122px;
+  }
+  .in_ser2 {
+    width: 115px;
+    height: 22px;
+    left: 97px;
+    top: 122px;
+  }
+  .in_ser3 {
+    width: 120px;
+    height: 22px;
+    left: 95px;
+    top: 122px;
+  }
+  .in_ser4 {
+    width: 115px;
+    height: 22px;
+    left: 97px;
+    top: 128px;
+  }
+  .in_ser5 {
+    width: 111px;
+    height: 22px;
+    left: 99px;
+    top: 128px;
+  }
+  .in_ser6 {
+    width: 99px;
+    height: 22px;
+    left: 105px;
+    top: 31px;
+  }
+  .inn_ser_par {
+    position: absolute;
+    width: 134px;
+    height: 24px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  .in_se_par1 {
+    left: 88px;
+    top: 159px;
+  }
+  .in_se_par2 {
+    left: 55px;
+    top: 159px;
+    width: 200px;
+    height: 24px;
+  }
+  .in_se_par3 {
+    left: 67px;
+    top: 159px;
+    width: 175px;
+  }
+  .in_se_par4 {
+    width: 246px;
+    left: 32px;
+    top: 168px;
+  }
+  .in_se_par5 {
+    width: 213px;
+    left: 48px;
+    top: 168px;
+  }
+  .in_se_par6 {
+    width: 260px;
+    height: 78px;
+    left: 45px;
+    top: 75px;
+  }
+  .order {
+    position: absolute;
+    width: 69px;
+    height: 14px;
+    left: 112px;
+    top: 183px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFB400;
+  }
+  #edu {
+    width: 158px;
+    height: 40px;
+    left: 707px;
+    top: 1324px;
+  }
+  .edu-p {
+    left: 576px;
+    top: 1389px;
+  }
+  .edu_div {
+    position: absolute;
+    width: 970px;
+    height: 632px;
+    left: 310px;
+    top: 1507px;
+    background-color: #FFFFFF;
+  }
+  .edu_div .h4_edu {
+    position: absolute;
+    width: 184px;
+    height: 22px;
+    left: 37px;
+    top: 51px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  .edu_div .p_edu {
+    position: absolute;
+    width: 57px;
+    height: 24px;
+    left: 37px;
+    top: 98px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #2B2B2B;
+  }
+  .edu_div .rect {
+    position: absolute;
+    width: 120px;
+    height: 18px;
+    left: 115px;
+    top: 101px;
+    background: #FFB400;
+    border-radius: 1px;
+  }
+  .edu_div .rect .inner_rect {
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    left: 7px;
+    top: 4px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 100.9%;
+    color: #FFFFFF;
+  }
+  .edu_div .rec_2 {
+    left: 115px;
+    top: 289px;
+  }
+  .edu_div .rec_3 {
+    left: 115px;
+    top: 497px;
+  }
+  .edu_div .h4_edu_2 {
+    position: absolute;
+    width: 234px;
+    height: 22px;
+    left: 405px;
+    top: 47px;
+  }
+  .edu_div .h4_edu_3 {
+    position: absolute;
+    width: 182px;
+    height: 22px;
+    left: 37px;
+    top: 240px;
+  }
+  .edu_div .h4_edu_4 {
+    position: absolute;
+    width: 234px;
+    height: 22px;
+    left: 405px;
+    top: 236px;
+  }
+  .edu_div .h4_edu_5 {
+    position: absolute;
+    width: 208px;
+    height: 22px;
+    left: 37px;
+    top: 448px;
+  }
+  .edu_div .h4_edu_6 {
+    position: absolute;
+    width: 234px;
+    height: 22px;
+    left: 405px;
+    top: 444px;
+  }
+  .edu_div .p_in_ed {
+    position: absolute;
+    width: 536px;
+    height: 100px;
+    left: 405px;
+    top: 97px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  .edu_div .p_in_ed3 {
+    top: 286px;
+    left: 37px;
+  }
+  .edu_div .p_in_ed4 {
+    top: 286px;
+    left: 405px;
+  }
+  .edu_div .p_in_ed5 {
+    top: 494px;
+    left: 37px;
+  }
+  .edu_div .p_in_ed6 {
+    top: 494px;
+    left: 405px;
+  }
+  .edu_div .line_big {
+    position: absolute;
+    width: 901px;
+    height: 0px;
+    left: 40px;
+    top: 208px;
+    border: 1.5px solid #F0F0F6;
+  }
+  .edu_div .lb_2 {
+    top: 416px;
+  }
+  .WH {
+    left: 681px;
+    top: 2198px;
+    width: 280px;
+  }
+  .wk_p {
+    width: 438px;
+    left: 576px;
+    top: 2263px;
+  }
+  .wk_div {
+    left: 310px;
+    top: 2381px;
+  }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+  .Home {
+    position: relative;
+    width: 1326px;
+    height: 3099px;
+    background-color: #F0F0F6;
+  }
+  .big_intro {
+    position: absolute;
+    width: 950px;
+    height: 531.9px;
+    left: 350px;
+    top: 0px;
+    background-color: #FFFFFF;
+  }
+  .big_intro .self {
+    position: absolute;
+    width: 500px;
+    height: 134.4px;
+    left: 60px;
+    top: 105.92px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 40px;
+    line-height: 123.6%;
+    color: #2B2B2B;
+  }
+  .big_intro .self .in_yel {
+    color: #FFB400;
+  }
+  .big_intro .lorem {
+    position: absolute;
+    width: 424px;
+    height: 100.23px;
+    left: 60px;
+    top: 260.82px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  .big_intro .hire {
+    position: absolute;
+    padding: 16px 32px;
+    gap: 10px;
+    left: 60px;
+    width: 200px;
+    height: 75px;
+    background-color: #FFB400;
+    border-radius: 5px;
+    top: 389.53px;
+  }
+  .big_intro .aks {
+    position: absolute;
+    width: 325.72px;
+    height: 522.89px;
+    top: 9.11px;
+    left: 586.68px;
+    background: no-repeat url(/images/khod.jpg);
+  }
+  div.sidebar {
+    position: absolute;
+    width: 325px;
+    height: 1315px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+  }
+  div.sidebar .sidebar-pic {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 74px;
+    top: 50px;
+    background: no-repeat url(/images/khod_kochi.jpg);
+    border-radius: 50%;
+  }
+  div.sidebar .sid-name {
+    position: absolute;
+    width: 250px;
+    height: 22px;
+    left: 77px;
+    top: 231px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  div.sidebar .sid-pos {
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 78px;
+    top: 268px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  div.sidebar .sid-elem {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    top: 307px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background: #FFB400;
+  }
+  div.sidebar .fac {
+    left: 40px;
+  }
+  div.sidebar .ins {
+    left: 79px;
+  }
+  div.sidebar .twi {
+    left: 118px;
+  }
+  div.sidebar .link {
+    left: 157px;
+  }
+  div.sidebar .utub {
+    left: 196px;
+  }
+  div.sidebar .chi {
+    left: 235px;
+  }
+  div.sidebar .line {
+    position: absolute;
+    width: 220px;
+    height: 0px;
+    border: 3.5px solid #F0F0F6;
+    left: 40px;
+  }
+  div.sidebar .av {
+    top: 356px;
+  }
+  div.sidebar .dov {
+    top: 532px;
+  }
+  div.sidebar .mosh_yek {
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    text-align: right;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #2B2B2B;
+  }
+  div.sidebar .inner_yek {
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #2B2B2B;
+  }
+  div.sidebar .sen {
+    position: absolute;
+    width: 19px;
+    height: 24px;
+    left: 241px;
+    top: 381px;
+  }
+  div.sidebar .side-zar {
+    position: absolute;
+    width: 55px;
+    height: 24px;
+    left: 40px;
+    top: 381px;
+    background-color: #FFB400;
+  }
+  div.sidebar .inner_age {
+    position: absolute;
+    width: 33px;
+    height: inherit;
+    left: 5px;
+    top: 1px;
+  }
+  div.sidebar .side-Res {
+    position: absolute;
+    width: 121px;
+    height: 24px;
+    left: 40px;
+    top: 415px;
+    background-color: #FFB400;
+  }
+  div.sidebar .inner_res {
+    position: absolute;
+    width: 78px;
+    height: inherit;
+    left: 5px;
+    top: 0px;
+  }
+  div.sidebar .res {
+    position: absolute;
+    width: 21px;
+    height: 24px;
+    left: 239px;
+    top: 415px;
+  }
+  div.sidebar .side-free {
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    left: 40px;
+    top: 449px;
+    background-color: #FFB400;
+  }
+  div.sidebar .inner_free {
+    position: absolute;
+    width: 74px;
+    height: inherit;
+    left: 5px;
+    top: 0px;
+  }
+  div.sidebar .free {
+    position: absolute;
+    width: 65px;
+    height: 24px;
+    left: 195px;
+    top: 449px;
+    color: #7EB942;
+  }
+  div.sidebar .side-add {
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 40px;
+    top: 483px;
+    background-color: #FFB400;
+  }
+  div.sidebar .inner_add {
+    position: absolute;
+    width: 63px;
+    height: inherit;
+    left: 5px;
+    top: 0px;
+  }
+  div.sidebar .add {
+    position: absolute;
+    width: 132px;
+    height: 24px;
+    left: 147px;
+    top: 483px;
+  }
+  div.sidebar .zab {
+    position: absolute;
+    width: 95px;
+    height: 22px;
+    left: 40px;
+    top: 557px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  div.sidebar .zab_yek {
+    position: absolute;
+    width: 67px;
+    height: 24px;
+    left: 40px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  div.sidebar .per {
+    top: 594px;
+  }
+  div.sidebar .sath {
+    position: absolute;
+    width: 123px;
+    height: 24px;
+    left: 222px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  div.sidebar .nat {
+    top: 594px;
+  }
+  div.sidebar .Eng {
+    top: 636px;
+  }
+  div.sidebar .adv {
+    top: 635px;
+  }
+  div.sidebar .Spanish {
+    top: 678px;
+  }
+  div.sidebar .bas {
+    top: 678px;
+  }
+  div.sidebar .sev {
+    top: 735px;
+  }
+  div.sidebar .contact {
+    position: absolute;
+    width: 250px;
+    height: 22px;
+    left: 40px;
+    top: 766px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  div.sidebar .ema {
+    top: 829px;
+  }
+  div.sidebar .email {
+    left: 85px;
+    top: 824px;
+  }
+  div.sidebar #emaili {
+    text-transform: none;
+    left: 149px;
+  }
+  div.sidebar .pho {
+    top: 877px;
+  }
+  div.sidebar .phone {
+    left: 153px;
+    top: 876px;
+  }
+  div.sidebar .tel {
+    top: 921px;
+  }
+  div.sidebar .telegram {
+    left: 152px;
+    top: 923px;
+  }
+  div.sidebar .sky {
+    top: 964px;
+  }
+  div.sidebar .skype {
+    left: 152px;
+    top: 964px;
+  }
+  div.sidebar .cha {
+    top: 1027px;
+  }
+  div.sidebar .skill {
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    left: 40px;
+    top: 1052px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  div.sidebar .t2t {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 40px;
+  }
+  div.sidebar .t1 {
+    top: 1093px;
+  }
+  div.sidebar .ski_yek {
+    position: absolute;
+    width: 156px;
+    height: 24px;
+    left: 70px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  div.sidebar .ski1 {
+    top: 1089px;
+  }
+  div.sidebar .t2 {
+    top: 1122px;
+  }
+  div.sidebar .ski2 {
+    top: 1118px;
+  }
+  div.sidebar .t3 {
+    top: 1151px;
+  }
+  div.sidebar .ski3 {
+    top: 1147px;
+  }
+  div.sidebar .t4 {
+    top: 1176px;
+  }
+  div.sidebar .ski4 {
+    top: 1176px;
+  }
+  div.sidebar .pan {
+    top: 1225px;
+  }
+  div.sidebar .cv {
+    position: absolute;
+    top: 1250px;
+    left: 40px;
+    width: 230px;
+    height: 45px;
+  }
+  .serv {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 713px;
+    top: 605px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  .par_ser {
+    position: absolute;
+    width: 438px;
+    height: 68px;
+    left: 601px;
+    top: 670px;
+    /* P-15px paragraph */
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    /* or 160% */
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  .myServ_obj {
+    position: absolute;
+    width: 310px;
+    height: 225px;
+    background-color: #FFFFFF;
+  }
+  .servObj1 {
+    left: 335px;
+    top: 788px;
+  }
+  .servObj2 {
+    left: 665px;
+    top: 788px;
+  }
+  .servObj3 {
+    left: 995px;
+    top: 788px;
+  }
+  .servObj4 {
+    left: 335px;
+    top: 1033px;
+  }
+  .servObj5 {
+    left: 665px;
+    top: 1033px;
+  }
+  .servObj6 {
+    left: 995px;
+    top: 1033px;
+  }
+  .svgs {
+    position: absolute;
+    left: 122.6px;
+    top: 35.44px;
+    width: 90px;
+    height: 85px;
+  }
+  .inn_serv {
+    position: absolute;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  .in_ser1 {
+    width: 158px;
+    height: 22px;
+    left: 76px;
+    top: 122px;
+  }
+  .in_ser2 {
+    width: 115px;
+    height: 22px;
+    left: 97px;
+    top: 122px;
+  }
+  .in_ser3 {
+    width: 120px;
+    height: 22px;
+    left: 95px;
+    top: 122px;
+  }
+  .in_ser4 {
+    width: 115px;
+    height: 22px;
+    left: 97px;
+    top: 128px;
+  }
+  .in_ser5 {
+    width: 111px;
+    height: 22px;
+    left: 99px;
+    top: 128px;
+  }
+  .in_ser6 {
+    width: 99px;
+    height: 22px;
+    left: 105px;
+    top: 31px;
+  }
+  .inn_ser_par {
+    position: absolute;
+    width: 134px;
+    height: 24px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  .in_se_par1 {
+    left: 88px;
+    top: 159px;
+  }
+  .in_se_par2 {
+    left: 55px;
+    top: 159px;
+    width: 200px;
+    height: 24px;
+  }
+  .in_se_par3 {
+    left: 67px;
+    top: 159px;
+    width: 175px;
+  }
+  .in_se_par4 {
+    width: 246px;
+    left: 32px;
+    top: 168px;
+  }
+  .in_se_par5 {
+    width: 213px;
+    left: 48px;
+    top: 168px;
+  }
+  .in_se_par6 {
+    width: 260px;
+    height: 78px;
+    left: 45px;
+    top: 75px;
+  }
+  .order {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    left: 112px;
+    top: 183px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFB400;
+  }
+  #edu {
+    width: 158px;
+    height: 40px;
+    left: 707px;
+    top: 1324px;
+  }
+  .edu-p {
+    left: 576px;
+    top: 1389px;
+  }
+  .edu_div {
+    position: absolute;
+    width: 970px;
+    height: 632px;
+    left: 310px;
+    top: 1507px;
+    background-color: #FFFFFF;
+  }
+  .edu_div .h4_edu {
+    position: absolute;
+    width: 225px;
+    height: 22px;
+    left: 37px;
+    top: 51px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  .edu_div .p_edu {
+    position: absolute;
+    width: 57px;
+    height: 24px;
+    left: 37px;
+    top: 98px;
+    /* P-15px paragraph */
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #2B2B2B;
+  }
+  .edu_div .rect {
+    position: absolute;
+    width: 160px;
+    height: 25px;
+    left: 115px;
+    top: 101px;
+    background: #FFB400;
+    border-radius: 1px;
+  }
+  .edu_div .rect .inner_rect {
+    position: absolute;
+    width: 140px;
+    height: 10px;
+    left: 7px;
+    top: 4px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100.9%;
+    color: #FFFFFF;
+  }
+  .edu_div .rec_2 {
+    left: 115px;
+    top: 289px;
+  }
+  .edu_div .rec_3 {
+    left: 115px;
+    top: 497px;
+  }
+  .edu_div .h4_edu_2 {
+    position: absolute;
+    width: 310px;
+    height: 22px;
+    left: 405px;
+    top: 47px;
+  }
+  .edu_div .h4_edu_3 {
+    position: absolute;
+    width: 333px;
+    height: 22px;
+    left: 37px;
+    top: 240px;
+  }
+  .edu_div .h4_edu_4 {
+    position: absolute;
+    width: 315px;
+    height: 22px;
+    left: 405px;
+    top: 236px;
+  }
+  .edu_div .h4_edu_5 {
+    position: absolute;
+    width: 315px;
+    height: 22px;
+    left: 37px;
+    top: 448px;
+  }
+  .edu_div .h4_edu_6 {
+    position: absolute;
+    width: 315px;
+    height: 22px;
+    left: 405px;
+    top: 444px;
+  }
+  .edu_div .p_in_ed {
+    position: absolute;
+    width: 536px;
+    height: 100px;
+    left: 405px;
+    top: 97px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  .edu_div .p_in_ed3 {
+    top: 286px;
+    left: 37px;
+  }
+  .edu_div .p_in_ed4 {
+    top: 286px;
+    left: 405px;
+  }
+  .edu_div .p_in_ed5 {
+    top: 494px;
+    left: 37px;
+  }
+  .edu_div .p_in_ed6 {
+    top: 494px;
+    left: 405px;
+  }
+  .edu_div .line_big {
+    position: absolute;
+    width: 901px;
+    height: 0px;
+    left: 40px;
+    top: 220px;
+    border: 3.5px solid #F0F0F6;
+  }
+  .edu_div .lb_2 {
+    top: 416px;
+  }
+  .WH {
+    left: 681px;
+    top: 2198px;
+    width: 270px;
+  }
+  .wk_p {
+    width: 438px;
+    left: 576px;
+    top: 2263px;
+  }
+  .wk_div {
+    left: 310px;
+    top: 2381px;
+  }
+}
+@media (min-width: 360px) and (max-width: 768px) {
+  .Home {
+    position: relative;
+    width: 1326px;
+    height: 3099px;
+    background-color: #F0F0F6;
+  }
+  .big_intro {
+    position: absolute;
+    width: 1323px;
+    height: 531.9px;
+    left: 0px;
+    top: 0px;
+    background-color: #FFFFFF;
+  }
+  .big_intro .self {
+    position: absolute;
+    width: 704px;
+    height: 134.4px;
+    left: 60px;
+    top: 105.92px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 42px;
+    line-height: 123.6%;
+    color: #2B2B2B;
+  }
+  .big_intro .self .in_yel {
+    color: #FFB400;
+  }
+  .big_intro .lorem {
+    position: absolute;
+    width: 600px;
+    height: 100.23px;
+    left: 60px;
+    top: 260.82px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  .big_intro .hire {
+    position: absolute;
+    padding: 16px 32px;
+    gap: 10px;
+    left: 60px;
+    width: 233px;
+    height: 80px;
+    background-color: #FFB400;
+    border-radius: 5px;
+    top: 389.53px;
+  }
+  .big_intro .aks {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    top: 9.11px;
+    left: 760px;
+    background: no-repeat url(/images/khod.jpg);
+  }
+  div.sidebar {
+    position: absolute;
+    width: 325px;
+    height: 1315px;
+    left: 0px;
+    top: 550px;
+    background: #FFFFFF;
+  }
+  div.sidebar .sidebar-pic {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 74px;
+    top: 50px;
+    background: no-repeat url(/images/khod_kochi.jpg);
+    border-radius: 50%;
+  }
+  div.sidebar .sid-name {
+    position: absolute;
+    width: 250px;
+    height: 22px;
+    left: 77px;
+    top: 231px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  div.sidebar .sid-pos {
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 78px;
+    top: 268px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  div.sidebar .sid-elem {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    top: 307px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background: #FFB400;
+  }
+  div.sidebar .fac {
+    left: 40px;
+  }
+  div.sidebar .ins {
+    left: 79px;
+  }
+  div.sidebar .twi {
+    left: 118px;
+  }
+  div.sidebar .link {
+    left: 157px;
+  }
+  div.sidebar .utub {
+    left: 196px;
+  }
+  div.sidebar .chi {
+    left: 235px;
+  }
+  div.sidebar .line {
+    position: absolute;
+    width: 220px;
+    height: 0px;
+    border: 3.5px solid #F0F0F6;
+    left: 40px;
+  }
+  div.sidebar .av {
+    top: 356px;
+  }
+  div.sidebar .dov {
+    top: 532px;
+  }
+  div.sidebar .mosh_yek {
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    text-align: right;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #2B2B2B;
+  }
+  div.sidebar .inner_yek {
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #2B2B2B;
+  }
+  div.sidebar .sen {
+    position: absolute;
+    width: 19px;
+    height: 24px;
+    left: 241px;
+    top: 381px;
+  }
+  div.sidebar .side-zar {
+    position: absolute;
+    width: 55px;
+    height: 24px;
+    left: 40px;
+    top: 381px;
+    background-color: #FFB400;
+  }
+  div.sidebar .inner_age {
+    position: absolute;
+    width: 33px;
+    height: inherit;
+    left: 5px;
+    top: 1px;
+  }
+  div.sidebar .side-Res {
+    position: absolute;
+    width: 121px;
+    height: 24px;
+    left: 40px;
+    top: 415px;
+    background-color: #FFB400;
+  }
+  div.sidebar .inner_res {
+    position: absolute;
+    width: 78px;
+    height: inherit;
+    left: 5px;
+    top: 0px;
+  }
+  div.sidebar .res {
+    position: absolute;
+    width: 21px;
+    height: 24px;
+    left: 239px;
+    top: 415px;
+  }
+  div.sidebar .side-free {
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    left: 40px;
+    top: 449px;
+    background-color: #FFB400;
+  }
+  div.sidebar .inner_free {
+    position: absolute;
+    width: 74px;
+    height: inherit;
+    left: 5px;
+    top: 0px;
+  }
+  div.sidebar .free {
+    position: absolute;
+    width: 65px;
+    height: 24px;
+    left: 195px;
+    top: 449px;
+    color: #7EB942;
+  }
+  div.sidebar .side-add {
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 40px;
+    top: 483px;
+    background-color: #FFB400;
+  }
+  div.sidebar .inner_add {
+    position: absolute;
+    width: 63px;
+    height: inherit;
+    left: 5px;
+    top: 0px;
+  }
+  div.sidebar .add {
+    position: absolute;
+    width: 132px;
+    height: 24px;
+    left: 147px;
+    top: 483px;
+  }
+  div.sidebar .zab {
+    position: absolute;
+    width: 95px;
+    height: 22px;
+    left: 40px;
+    top: 557px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  div.sidebar .zab_yek {
+    position: absolute;
+    width: 67px;
+    height: 24px;
+    left: 40px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  div.sidebar .per {
+    top: 594px;
+  }
+  div.sidebar .sath {
+    position: absolute;
+    width: 123px;
+    height: 24px;
+    left: 222px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  div.sidebar .nat {
+    top: 594px;
+  }
+  div.sidebar .Eng {
+    top: 636px;
+  }
+  div.sidebar .adv {
+    top: 635px;
+  }
+  div.sidebar .Spanish {
+    top: 678px;
+  }
+  div.sidebar .bas {
+    top: 678px;
+  }
+  div.sidebar .sev {
+    top: 735px;
+  }
+  div.sidebar .contact {
+    position: absolute;
+    width: 250px;
+    height: 22px;
+    left: 40px;
+    top: 766px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  div.sidebar .ema {
+    top: 829px;
+  }
+  div.sidebar .email {
+    left: 85px;
+    top: 824px;
+  }
+  div.sidebar #emaili {
+    text-transform: none;
+    left: 149px;
+  }
+  div.sidebar .pho {
+    top: 877px;
+  }
+  div.sidebar .phone {
+    left: 153px;
+    top: 876px;
+  }
+  div.sidebar .tel {
+    top: 921px;
+  }
+  div.sidebar .telegram {
+    left: 152px;
+    top: 923px;
+  }
+  div.sidebar .sky {
+    top: 964px;
+  }
+  div.sidebar .skype {
+    left: 152px;
+    top: 964px;
+  }
+  div.sidebar .cha {
+    top: 1027px;
+  }
+  div.sidebar .skill {
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    left: 40px;
+    top: 1052px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  div.sidebar .t2t {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 40px;
+  }
+  div.sidebar .t1 {
+    top: 1093px;
+  }
+  div.sidebar .ski_yek {
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 70px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  div.sidebar .ski1 {
+    top: 1089px;
+  }
+  div.sidebar .t2 {
+    top: 1122px;
+  }
+  div.sidebar .ski2 {
+    top: 1118px;
+  }
+  div.sidebar .t3 {
+    top: 1151px;
+  }
+  div.sidebar .ski3 {
+    top: 1147px;
+  }
+  div.sidebar .t4 {
+    top: 1176px;
+  }
+  div.sidebar .ski4 {
+    top: 1176px;
+  }
+  div.sidebar .pan {
+    top: 1225px;
+  }
+  div.sidebar .cv {
+    position: absolute;
+    top: 1250px;
+    left: 40px;
+    width: 248px;
+    height: 50px;
+  }
+  .serv {
+    position: absolute;
+    width: 333px;
+    height: 40px;
+    left: 650px;
+    top: 580px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  .par_ser {
+    position: absolute;
+    width: 609px;
+    height: 68px;
+    left: 496px;
+    top: 656px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  .myServ_obj {
+    position: absolute;
+    width: 310px;
+    height: 233px;
+    background-color: #FFFFFF;
+  }
+  .servObj1 {
+    left: 335px;
+    top: 788px;
+  }
+  .servObj2 {
+    left: 665px;
+    top: 788px;
+  }
+  .servObj3 {
+    left: 995px;
+    top: 788px;
+  }
+  .servObj4 {
+    left: 335px;
+    top: 1033px;
+  }
+  .servObj5 {
+    left: 665px;
+    top: 1033px;
+  }
+  .servObj6 {
+    left: 995px;
+    top: 1033px;
+  }
+  .svgs {
+    position: absolute;
+    left: 95.6px;
+    top: 15.44px;
+    width: 110px;
+    height: 94px;
+  }
+  .inn_serv {
+    position: absolute;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  .in_ser1 {
+    width: 229px;
+    height: 22px;
+    left: 45px;
+    top: 122px;
+  }
+  .in_ser2 {
+    width: 250px;
+    height: 22px;
+    left: 60px;
+    top: 122px;
+  }
+  .in_ser3 {
+    width: 250px;
+    height: 22px;
+    left: 60px;
+    top: 122px;
+  }
+  .in_ser4 {
+    width: 250px;
+    height: 22px;
+    left: 60px;
+    top: 128px;
+  }
+  .in_ser5 {
+    width: 250px;
+    height: 22px;
+    left: 60px;
+    top: 128px;
+  }
+  .in_ser6 {
+    width: 99px;
+    height: 22px;
+    left: 70px;
+    top: 31px;
+  }
+  .inn_ser_par {
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  .in_se_par1 {
+    left: 50px;
+    top: 159px;
+  }
+  .in_se_par2 {
+    left: 55px;
+    top: 159px;
+    width: 200px;
+    height: 24px;
+  }
+  .in_se_par3 {
+    left: 67px;
+    top: 159px;
+    width: 175px;
+  }
+  .in_se_par4 {
+    width: 246px;
+    left: 32px;
+    top: 168px;
+  }
+  .in_se_par5 {
+    width: 213px;
+    left: 48px;
+    top: 168px;
+  }
+  .in_se_par6 {
+    width: 260px;
+    height: 78px;
+    left: 45px;
+    top: 75px;
+  }
+  .order {
+    position: absolute;
+    width: 117px;
+    height: 31px;
+    left: 112px;
+    top: 197px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFB400;
+  }
+  #edu {
+    width: 158px;
+    height: 40px;
+    left: 707px;
+    top: 1324px;
+  }
+  .edu-p {
+    left: 576px;
+    top: 1389px;
+  }
+  .edu_div {
+    position: absolute;
+    width: 986px;
+    height: 650px;
+    left: 333px;
+    top: 1507px;
+    background-color: #FFFFFF;
+  }
+  .edu_div .h4_edu {
+    position: absolute;
+    width: 300px;
+    height: 22px;
+    left: 37px;
+    top: 51px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  .edu_div .p_edu {
+    position: absolute;
+    width: 57px;
+    height: 24px;
+    left: 37px;
+    top: 133px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #2B2B2B;
+  }
+  .edu_div .rect {
+    position: absolute;
+    width: 171px;
+    height: 41px;
+    left: 167px;
+    top: 128px;
+    background: #FFB400;
+    border-radius: 1px;
+  }
+  .edu_div .rect .inner_rect {
+    position: absolute;
+    width: 175px;
+    height: 10px;
+    left: 7px;
+    top: 4px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100.9%;
+    color: #FFFFFF;
+  }
+  .edu_div .rec_2 {
+    left: 164px;
+    top: 333px;
+  }
+  .edu_div .rec_3 {
+    left: 164px;
+    top: 497px;
+  }
+  .edu_div .h4_edu_2 {
+    position: absolute;
+    width: 437px;
+    height: 22px;
+    left: 405px;
+    top: 47px;
+  }
+  .edu_div .h4_edu_3 {
+    position: absolute;
+    width: 437px;
+    height: 22px;
+    left: 37px;
+    top: 240px;
+  }
+  .edu_div .h4_edu_4 {
+    position: absolute;
+    width: 437px;
+    height: 22px;
+    left: 405px;
+    top: 236px;
+  }
+  .edu_div .h4_edu_5 {
+    position: absolute;
+    width: 437px;
+    height: 22px;
+    left: 37px;
+    top: 448px;
+  }
+  .edu_div .h4_edu_6 {
+    position: absolute;
+    width: 437px;
+    height: 22px;
+    left: 405px;
+    top: 444px;
+  }
+  .edu_div .p_in_ed {
+    position: absolute;
+    width: 536px;
+    height: 100px;
+    left: 405px;
+    top: 86px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  .edu_div .p_in_ed3 {
+    top: 333px;
+    left: 37px;
+  }
+  .edu_div .p_in_ed4 {
+    top: 286px;
+    left: 405px;
+  }
+  .edu_div .p_in_ed5 {
+    top: 494px;
+    left: 37px;
+  }
+  .edu_div .p_in_ed6 {
+    top: 494px;
+    left: 405px;
+  }
+  .edu_div .line_big {
+    position: absolute;
+    width: 901px;
+    height: 0px;
+    left: 40px;
+    top: 233px;
+    border: 3.5px solid #F0F0F6;
+  }
+  .edu_div .lb_2 {
+    top: 436px;
+  }
+  .WH {
+    left: 632px;
+    top: 2198px;
+    width: 333px;
+  }
+  .wk_p {
+    width: 438px;
+    left: 576px;
+    top: 2263px;
+  }
+  .wk_div {
+    left: 310px;
+    top: 2381px;
+  }
+}
+@media (max-width: 360px) {
+  .Home {
+    position: relative;
+    width: 1326px;
+    height: 17517px;
+    background-color: #F0F0F6;
+  }
+  .big_intro {
+    position: absolute;
+    width: 1323px;
+    height: 1250px;
+    left: 0px;
+    top: 0px;
+    background-color: #FFFFFF;
+  }
+  .big_intro .self {
+    position: absolute;
+    width: 1032px;
+    height: 134.4px;
+    left: 60px;
+    top: 105.92px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 668;
+    font-size: 63px;
+    line-height: 123.6%;
+    color: #2B2B2B;
+  }
+  .big_intro .self .in_yel {
+    color: #FFB400;
+  }
+  .big_intro .lorem {
+    position: absolute;
+    width: 1170px;
+    height: 233.23px;
+    left: 62px;
+    top: 312.82px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 63px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  .big_intro .hire {
+    position: absolute;
+    padding: 16px 32px;
+    gap: 10px;
+    left: 60px;
+    width: 473px;
+    height: 166px;
+    background-color: #FFB400;
+    border-radius: 5px;
+    top: 879.53px;
+  }
+  .big_intro .aks {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 693.11px;
+    left: 695px;
+    background: no-repeat url(/images/khode_big.png);
+  }
+  div.sidebar {
+    position: absolute;
+    width: 1239px;
+    height: 4506px;
+    left: 57px;
+    top: 12881px;
+    background: #FFFFFF;
+  }
+  div.sidebar .sidebar-pic {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 486px;
+    top: 50px;
+    background: no-repeat url(/images/khod.jpg);
+    border-radius: 50%;
+  }
+  div.sidebar .sid-name {
+    position: absolute;
+    width: 800px;
+    height: 22px;
+    left: 277px;
+    top: 431px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 123.6%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  div.sidebar .sid-pos {
+    position: absolute;
+    width: 800px;
+    height: 24px;
+    left: 338px;
+    top: 468px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 72px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  div.sidebar .sid-elem {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 554px;
+    border-radius: 50%;
+    margin-right: 336px;
+    background: #FFB400;
+  }
+  div.sidebar .fac {
+    left: 270px;
+  }
+  div.sidebar .ins {
+    left: 380px;
+  }
+  div.sidebar .twi {
+    left: 490px;
+  }
+  div.sidebar .link {
+    left: 600px;
+  }
+  div.sidebar .utub {
+    left: 710px;
+  }
+  div.sidebar .chi {
+    left: 820px;
+  }
+  div.sidebar .line {
+    position: absolute;
+    width: 1120px;
+    height: 0px;
+    border: 6.5px solid #F0F0F6;
+    left: 40px;
+  }
+  div.sidebar .av {
+    top: 666px;
+  }
+  div.sidebar .dov {
+    top: 1392px;
+  }
+  div.sidebar .mosh_yek {
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 24px;
+    text-align: right;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #2B2B2B;
+  }
+  div.sidebar .inner_yek {
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #2B2B2B;
+  }
+  div.sidebar .sen {
+    position: absolute;
+    width: 60px;
+    height: 24px;
+    left: 741px;
+    top: 821px;
+  }
+  div.sidebar .side-zar {
+    position: absolute;
+    width: 236px;
+    height: 100px;
+    left: 240px;
+    top: 781px;
+    background-color: #FFB400;
+  }
+  div.sidebar .inner_age {
+    position: absolute;
+    width: 33px;
+    height: inherit;
+    left: 20px;
+    top: 30px;
+  }
+  div.sidebar .side-Res {
+    position: absolute;
+    width: 345px;
+    height: 100px;
+    left: 240px;
+    top: 915px;
+    background-color: #FFB400;
+  }
+  div.sidebar .inner_res {
+    position: absolute;
+    width: 78px;
+    height: inherit;
+    left: 5px;
+    top: 25px;
+  }
+  div.sidebar .res {
+    position: absolute;
+    width: 21px;
+    height: 24px;
+    left: 741px;
+    top: 945px;
+  }
+  div.sidebar .side-free {
+    position: absolute;
+    width: 345px;
+    height: 100px;
+    left: 240px;
+    top: 1064px;
+    background-color: #FFB400;
+  }
+  div.sidebar .inner_free {
+    position: absolute;
+    width: 74px;
+    height: inherit;
+    left: 5px;
+    top: 25px;
+  }
+  div.sidebar .free {
+    position: absolute;
+    width: 65px;
+    height: 24px;
+    left: 741px;
+    top: 1100px;
+    color: #7EB942;
+  }
+  div.sidebar .side-add {
+    position: absolute;
+    width: 287px;
+    height: 100px;
+    left: 240px;
+    top: 1223px;
+    background-color: #FFB400;
+  }
+  div.sidebar .inner_add {
+    position: absolute;
+    width: 63px;
+    height: inherit;
+    left: 5px;
+    top: 25px;
+  }
+  div.sidebar .add {
+    position: absolute;
+    width: 132px;
+    height: 24px;
+    left: 741px;
+    top: 1253px;
+  }
+  div.sidebar .zab {
+    position: absolute;
+    width: 95px;
+    height: 22px;
+    left: 240px;
+    top: 1507px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  div.sidebar .zab_yek {
+    position: absolute;
+    width: 67px;
+    height: 24px;
+    left: 240px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  div.sidebar .per {
+    top: 1700px;
+  }
+  div.sidebar .sath {
+    position: absolute;
+    width: 123px;
+    height: 24px;
+    left: 741px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  div.sidebar .nat {
+    top: 1700px;
+  }
+  div.sidebar .Eng {
+    top: 1850px;
+  }
+  div.sidebar .adv {
+    top: 1850px;
+  }
+  div.sidebar .Spanish {
+    top: 2000px;
+  }
+  div.sidebar .bas {
+    top: 2000px;
+  }
+  div.sidebar .sev {
+    top: 2100px;
+  }
+  div.sidebar .contact {
+    position: absolute;
+    width: 900px;
+    height: 22px;
+    left: 240px;
+    top: 2196px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  div.sidebar .ema {
+    top: 2366px;
+  }
+  div.sidebar .email {
+    left: 85px;
+    top: 2366px;
+  }
+  div.sidebar #emaili {
+    text-transform: none;
+    left: 701px;
+  }
+  div.sidebar .pho {
+    top: 2516px;
+  }
+  div.sidebar .phone {
+    left: 701px;
+    top: 2516px;
+  }
+  div.sidebar .tel {
+    top: 2666px;
+  }
+  div.sidebar .telegram {
+    left: 701px;
+    top: 2666px;
+  }
+  div.sidebar .sky {
+    top: 2816px;
+  }
+  div.sidebar .skype {
+    left: 701px;
+    top: 2816px;
+  }
+  div.sidebar .cha {
+    top: 2933px;
+  }
+  div.sidebar .skill {
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    left: 240px;
+    top: 2994px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  div.sidebar .t2t {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 240px;
+  }
+  div.sidebar .t1 {
+    top: 3150px;
+  }
+  div.sidebar .ski_yek {
+    position: absolute;
+    width: 800px;
+    height: 24px;
+    left: 500px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 58px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  div.sidebar .ski1 {
+    top: 3160px;
+  }
+  div.sidebar .t2 {
+    top: 3300px;
+  }
+  div.sidebar .ski2 {
+    top: 3310px;
+  }
+  div.sidebar .t3 {
+    top: 3450px;
+  }
+  div.sidebar .ski3 {
+    top: 3460px;
+  }
+  div.sidebar .t4 {
+    top: 3600px;
+  }
+  div.sidebar .ski4 {
+    top: 3610px;
+  }
+  div.sidebar .pan {
+    top: 3790px;
+  }
+  div.sidebar .cv {
+    position: absolute;
+    top: 4038px;
+    left: 269px;
+    width: 700px;
+    height: 250px;
+  }
+  .serv {
+    position: absolute;
+    width: 794px;
+    height: 40px;
+    left: 336px;
+    top: 1371px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 127px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  .par_ser {
+    position: absolute;
+    width: 1053px;
+    height: 75px;
+    left: 183px;
+    top: 1587px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  .myServ_obj {
+    position: absolute;
+    width: 910px;
+    height: 833px;
+    background-color: #FFFFFF;
+  }
+  .servObj1 {
+    left: 217px;
+    top: 2061px;
+  }
+  .servObj2 {
+    left: 217px;
+    top: 2944px;
+  }
+  .servObj3 {
+    left: 217px;
+    top: 3833px;
+  }
+  .servObj4 {
+    left: 217px;
+    top: 4725px;
+  }
+  .servObj5 {
+    left: 217px;
+    top: 5613px;
+  }
+  .servObj6 {
+    left: 217px;
+    top: 6500px;
+  }
+  .svgs {
+    position: absolute;
+    left: 214.6px;
+    top: 27.44px;
+    width: 494px;
+    height: 485px;
+  }
+  .inn_serv {
+    position: absolute;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  .in_ser1 {
+    width: 552px;
+    height: 22px;
+    left: 201px;
+    top: 491px;
+  }
+  .in_ser2 {
+    width: 552px;
+    height: 22px;
+    left: 286px;
+    top: 526px;
+  }
+  .in_ser3 {
+    width: 411px;
+    height: 22px;
+    left: 261px;
+    top: 533px;
+  }
+  .in_ser4 {
+    width: 552px;
+    height: 22px;
+    left: 286px;
+    top: 526px;
+  }
+  .in_ser5 {
+    width: 552px;
+    height: 22px;
+    left: 286px;
+    top: 526px;
+  }
+  .in_ser6 {
+    width: 552px;
+    height: 22px;
+    left: 286px;
+    top: 100px;
+  }
+  .inn_ser_par {
+    position: absolute;
+    width: 776px;
+    height: 24px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  .in_se_par1 {
+    left: 71px;
+    top: 629px;
+  }
+  .in_se_par2 {
+    left: 87px;
+    top: 629px;
+    width: 745px;
+    height: 24px;
+  }
+  .in_se_par3 {
+    left: 87px;
+    top: 629px;
+    width: 745px;
+  }
+  .in_se_par4 {
+    left: 87px;
+    top: 629px;
+    width: 745px;
+  }
+  .in_se_par5 {
+    left: 87px;
+    top: 629px;
+    width: 745px;
+  }
+  .in_se_par6 {
+    height: 78px;
+    left: 87px;
+    top: 222px;
+    width: 745px;
+  }
+  .order {
+    position: absolute;
+    width: 637px;
+    height: 224px;
+    left: 190px;
+    top: 543px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFB400;
+  }
+  #edu {
+    width: 158px;
+    height: 40px;
+    left: 371px;
+    top: 7500px;
+  }
+  .edu-p {
+    left: 154px;
+    top: 7689px;
+  }
+  .edu_div {
+    position: absolute;
+    width: 1240px;
+    height: 2100px;
+    left: 58px;
+    top: 7972px;
+    background-color: #FFFFFF;
+  }
+  .edu_div .h4_edu {
+    position: absolute;
+    width: 700px;
+    height: 22px;
+    left: 37px;
+    top: 51px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 67px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+  }
+  .edu_div .p_edu {
+    position: absolute;
+    width: 57px;
+    height: 24px;
+    left: 37px;
+    top: 310px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #2B2B2B;
+  }
+  .edu_div .rect {
+    position: absolute;
+    width: 264px;
+    height: 110px;
+    left: 43px;
+    top: 421px;
+    background: #FFB400;
+    border-radius: 1px;
+  }
+  .edu_div .rect .inner_rect {
+    position: absolute;
+    width: 202px;
+    height: 10px;
+    left: 7px;
+    top: 4px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100.9%;
+    color: #FFFFFF;
+  }
+  .edu_div .rec_2 {
+    left: 43px;
+    top: 1090px;
+  }
+  .edu_div .rec_3 {
+    left: 43px;
+    top: 1818px;
+  }
+  .edu_div .h4_edu_2 {
+    position: absolute;
+    width: 437px;
+    height: 22px;
+    left: 720px;
+    top: 47px;
+  }
+  .edu_div .h4_edu_3 {
+    position: absolute;
+    width: 437px;
+    height: 22px;
+    left: 37px;
+    top: 728px;
+  }
+  .edu_div .h4_edu_4 {
+    position: absolute;
+    width: 437px;
+    height: 22px;
+    left: 720px;
+    top: 727px;
+  }
+  .edu_div .h4_edu_5 {
+    position: absolute;
+    width: 506px;
+    height: 22px;
+    left: 37px;
+    top: 1448px;
+  }
+  .edu_div .h4_edu_6 {
+    position: absolute;
+    width: 437px;
+    height: 22px;
+    left: 720px;
+    top: 1444px;
+  }
+  .edu_div .p_in_ed {
+    position: absolute;
+    width: 685px;
+    height: 100px;
+    left: 550px;
+    top: 249px;
+    font-family: Interrr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 41px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #767676;
+  }
+  .edu_div .p_in_ed3 {
+    top: 1000px;
+    left: 37px;
+  }
+  .edu_div .p_in_ed4 {
+    top: 954px;
+    left: 550px;
+  }
+  .edu_div .p_in_ed5 {
+    top: 1727px;
+    left: 37px;
+  }
+  .edu_div .p_in_ed6 {
+    top: 1679px;
+    left: 550px;
+  }
+  .edu_div .line_big {
+    position: absolute;
+    width: 1141px;
+    height: 0px;
+    left: 40px;
+    top: 677px;
+    border: 6.5px solid #F0F0F6;
+  }
+  .edu_div .lb_2 {
+    top: 1360px;
+  }
+  .WH {
+    left: 276px;
+    top: 10198px;
+    width: 826px;
+  }
+  .wk_p {
+    width: 770px;
+    left: 281px;
+    top: 10363px;
+  }
+  .wk_div {
+    left: 58px;
+    top: 10733px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
